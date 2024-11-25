@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseURL = "http://localhost:8082";
+const baseURL = "https://xexit-backend.onrender.com:8082";
 
 export const axiosInstance = axios.create({
   baseURL,
